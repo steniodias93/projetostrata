@@ -42,7 +42,7 @@ h2{
 }
 
 h3{
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 
@@ -133,6 +133,16 @@ main{
     margin: 0 0 5% 0; 
 }
 
+#job1 img:hover{
+    content: url(imagens/thumbs/01-old.jpg); /* Aqui eu alteraria a imagem e colocaria o botão de dentro "view */
+    /* transition: Não sei como colocar transição em conteúdo hover com imagem */
+    border-radius: 5px;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    margin: 0 0 5% 0; 
+}
+
 #job2{
     width: 44%;
     float: left;
@@ -146,6 +156,10 @@ main{
     float: left;
     box-sizing: border-box;
     margin: 0 0 5% 0; 
+}
+
+#job1 h3+p, #job2 h3+p, #job3 h3+p, #job4 h3+p, #job5 h3+p, #job6 h3+p{
+    text-align: justify;
 }
 
 #job3{
