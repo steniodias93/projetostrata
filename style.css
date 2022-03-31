@@ -317,20 +317,19 @@ input[type="submit"]:hover{
     color: rgb(133,187,178);
     border-radius: 5px;
 }
-pre, code{
+
+code{
     display: inline;
-    background-color: aquamarine;
-    white-space: nowrap;
 }
 
-sup{
-    font-size: 0.8rem;
-    color: blue;
-    vertical-align: top;
+#elements b, strong{
+    font-weight: bolder;
+    color: black;
 }
 
-sub{
-    font-size: 0.8rem;
-    color: blue;
-    vertical-align: bottom;
+a{
+    text-decoration: none;
+    color: rgb(133,187,178);
+    border-bottom: 2px double rgb(133,187,178);
+    border-left: 1px dashed rgb(133,187,178);
 }
