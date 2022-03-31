@@ -231,6 +231,27 @@ main{
     text-indent: 40px;
 }
 
+input[type="text"]{
+    display: inline-block;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding: 10px 20px;
+    outline: transparent;
+}
+
+input[type="email"]{
+    display: inline-block;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-top: 20px;
+    padding: 10px 15px;
+    outline: transparent;
+}
+
 #textarea{
     display: block;
     border: transparent;
@@ -238,6 +259,7 @@ main{
     background-color: #eee;
     margin-top: 20px;
     padding: 10px;
+    outline: transparent;
 }
 
 #textarea:hover{
@@ -251,30 +273,6 @@ main{
     border-radius: 5px;
 }
 
-#textarea:active{
-    border: 3px solid rgb(133,187,178);
-    border-radius: 5px;
-}
-
-input[type="text"]{
-    display: inline-block;
-    border: transparent;
-    border-radius: 5px;
-    background-color: #eee;
-    margin-top: 20px;
-    margin-right: 15px;
-    padding: 10px 20px;
-}
-
-input[type="email"]{
-    display: inline-block;
-    border: transparent;
-    border-radius: 5px;
-    background-color: #eee;
-    margin-top: 20px;
-    padding: 10px 15px;
-}
-
 input[type="text"]:hover{
     border: 2px solid rgb(133,187,178);
     border-radius: 5px;
@@ -286,25 +284,53 @@ input[type="text"]:focus{
     border-radius: 5px;
 }
 
-input[type="text"]:active{
-    border: 3px solid rgb(133,187,178);
-    border-radius: 5px;
-}
-
 input[type="email"]:hover{
     border: 2px solid rgb(133,187,178);
     border-radius: 5px;
     background-color: rgba(221, 221, 221, 0.705);
 }
+
 input[type="email"]:focus{
     border: 3px solid rgb(133,187,178);
     border-radius: 5px;
 }
-input[type="email"]:active{
-    border: 3px solid rgb(133,187,178);
+
+address, email{
+    float: right;
+    background-color: blue;
+    width: 30%;
+    margin-top: 20px;
+    padding: 10px 15px;
     border-radius: 5px;
 }
 
-address{
-    display:inline-block;
+input[type="submit"]{
+    border: transparent;
+    border-radius: 5px;
+    background-color: rgba(221, 221, 221, 0.705);
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+input[type="submit"]:hover{
+    border: 2px solid rgb(133,187,178);
+    color: rgb(133,187,178);
+    border-radius: 5px;
+}
+pre, code{
+    display: inline;
+    background-color: aquamarine;
+    white-space: nowrap;
+}
+
+sup{
+    font-size: 0.8rem;
+    color: blue;
+    vertical-align: top;
+}
+
+sub{
+    font-size: 0.8rem;
+    color: blue;
+    vertical-align: bottom;
 }
