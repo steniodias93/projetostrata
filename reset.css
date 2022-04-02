@@ -4,9 +4,8 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote,
-a, abbr, acronym, address, big, cite,
-del, dfn, img, ins, kbd, q, s, samp,
+h1, h2, h3, h4, h5, h6, p, a, abbr, acronym, address, big, cite,
+del, dfn, img, ins, kbd, s, samp,
 small, strike, strong, tt, var,
 b, u, center,
 dl, dt, dd, ol, ul, li,
@@ -34,14 +33,7 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
