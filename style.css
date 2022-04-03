@@ -373,7 +373,7 @@ ul#alternate{
 
 button.medio_verde{
     font-size: 0.8rem;
-    padding: 1rem;
+    padding: 0.8rem 1.1rem;
     background-color:#4ABF9F;
     border-radius: 5px;
     color: white;
@@ -381,7 +381,7 @@ button.medio_verde{
 }
 button.medio_branco{
     font-size: 0.8rem;
-    padding: 1rem;
+    padding: 0.8rem 1.1rem;
     background-color:transparent;
     border-radius: 5px;
     border: 1px solid rgba(190, 190, 190, 0.8);
@@ -389,20 +389,19 @@ button.medio_branco{
 
 #buttons1{
     padding: 5% 0;
-
 }
 
 button.pequeno_verde{
-    font-size: 0.8rem;
-    padding: 1rem;
+    font-size: 0.6rem;
+    padding: 0.6rem 0.9rem;
     background-color:#4ABF9F;
     border-radius: 5px;
     color: white;
     border: 1px solid transparent;
 }
 button.pequeno_branco{
-    font-size: 0.8rem;
-    padding: 1rem;
+    font-size: 0.6rem;
+    padding: 0.6rem 0.9rem;
     background-color:transparent;
     border-radius: 5px;
     border: 1px solid rgba(190, 190, 190, 0.8);
@@ -418,3 +417,5 @@ button.pequeno_branco{
 #alternate h3 + li, #alternate h3 + li + li{
     border-bottom: 2px solid rgba(190, 190, 190, 0.8);
 }
+
+/* Esqueci como colocar ícones com código */
