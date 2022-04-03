@@ -413,9 +413,70 @@ button.pequeno_branco{
     box-sizing: border-box;
     margin: 1% 1% 5% 0.7%;
 }
+button.largo_verde_G{
+    font-size: 0.8rem;
+    padding: 0.8rem 9.5rem;
+    background-color:#4ABF9F;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid transparent;
+    margin: 1% 0;
+}
+button.largo_branco_G{
+    font-size: 0.8rem;
+    padding: 0.8rem 9.5rem;
+    background-color:transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(190, 190, 190, 0.8);
+    margin: 1% 0;
+}
+button.largo_verde_P{
+    font-size: 0.6rem;
+    padding: 0.6rem 9.8125rem;
+    background-color:#4ABF9F;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid transparent;
+    margin: 1% 0;
+}
+
+button.largo_branco_P{
+    font-size: 0.6rem;
+    padding: 0.6rem 9.8125rem;
+    background-color:transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(190, 190, 190, 0.8);
+    margin: 1% 0;
+}
+
+#buttons2{
+    padding: 5% 0;
+    margin: 5% 0;
+}
+
 
 #alternate h3 + li, #alternate h3 + li + li{
     border-bottom: 2px solid rgba(190, 190, 190, 0.8);
 }
 
 /* Esqueci como colocar ícones com código */
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+tfoot{
+    background-color: crimson;
+}
+
+#total{
+    border: none;
+    display: inline;
+    font-weight: bolder;
+    text-align: left;
+    background-color: cornflowerblue; 
+}
