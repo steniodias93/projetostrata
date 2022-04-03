@@ -461,22 +461,47 @@ button.largo_branco_P{
 
 /* Esqueci como colocar ícones com código */
 
-table, td, th{
-    border: 1px solid black;
+#tables h3, h2{
+    display: inline-block;
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+}
+
+tr{
     border-collapse: collapse;
-    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128, .3);
+}
+
+td, th{
+    border-collapse: collapse;
     padding: 5px;
     vertical-align: middle;
 }
 
-tfoot{
-    background-color: crimson;
+th{
+    font-weight: bolder;
+    border: none;
+    background-color: rgba(128, 128, 128, .4);
+    border-bottom: 2px solid black;
 }
 
-#total{
+.linha1, .linha3, .linha5{
+    background-color: rgba(128, 128, 128, .2);
+}
+
+tfoot{
+    position: relative;
+}
+
+tfoot td{
     border: none;
     display: inline;
     font-weight: bolder;
-    text-align: left;
-    background-color: cornflowerblue; 
+    text-align: end;
+    margin-left: 87.5%;
+    position: absolute;
 }
