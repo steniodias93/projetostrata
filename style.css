@@ -297,7 +297,6 @@ input[type="email"]:focus{
 
 address, email{
     float: right;
-    background-color: blue;
     width: 30%;
     margin-top: 20px;
     padding: 10px 15px;
@@ -454,14 +453,13 @@ button.largo_branco_P{
     margin: 5% 0;
 }
 
-
 #alternate h3 + li, #alternate h3 + li + li{
     border-bottom: 2px solid rgba(190, 190, 190, 0.8);
 }
 
 /* Esqueci como colocar ícones com código */
 
-#tables h3, h2{
+#table h3, h2{
     display: inline-block;
     text-align: left;
 }
@@ -469,6 +467,7 @@ button.largo_branco_P{
 table{
     width: 100%;
     text-align: left;
+    padding: 5%;
 }
 
 tr{
@@ -478,7 +477,7 @@ tr{
 
 td, th{
     border-collapse: collapse;
-    padding: 5px;
+    padding: 10px;
     vertical-align: middle;
 }
 
@@ -489,15 +488,58 @@ th{
     border-bottom: 2px solid black;
 }
 
-.linha1, .linha3, .linha5{
+.linha2, .linha4{
     background-color: rgba(128, 128, 128, .2);
+}
+.linhabordada{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.7);
 }
 
 tfoot{
     position: relative;
 }
 
+tfoot tr{
+    position: relative;
+}
+
 tfoot td{
+    border: none;
+    display: inline;
+    font-weight: bolder;
+    text-align: end;
+    margin-left: 87.5%;
+    position: absolute;
+}
+
+#table_alternate{
+    margin: 20% 0;
+}
+
+#table_alternate th, #table_alternate td{
+        border: 1px solid rgba(128, 128, 128, .4);
+        border-collapse: collapse;
+        padding: 10px;
+        vertical-align: middle;
+}
+    
+#table_alternate th{
+        border: 1px solid rgba(128, 128, 128, .4);
+        font-weight: bolder;
+        border: none;
+        background-color: rgba(128, 128, 128, .4);
+        border-bottom: 2px solid black;
+}
+
+.linha2-2, .linha4-4{
+    background-color: rgba(128, 128, 128, .2);
+}
+
+.linha5-5{
+    border-bottom: none;
+}
+
+#table_alternate tfoot > tr > td {
     border: none;
     display: inline;
     font-weight: bolder;
