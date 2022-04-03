@@ -351,4 +351,70 @@ code{
     background-color: rgba(221, 221, 221, 0.3);
     border-radius: 5px;
 }
+ol, ul{
+    margin:20px;
+    padding: 0;
+    list-style: inside;
+}
 
+ul#alternate{
+    margin:20px;
+    padding: 0;
+    list-style: inside;
+    list-style-type: none;
+}
+
+#lista1{
+    width: 48%;
+    float: left;
+    box-sizing: border-box;
+    margin: 1% 1% 5% 0.7%;
+}
+
+button.medio_verde{
+    font-size: 0.8rem;
+    padding: 1rem;
+    background-color:#4ABF9F;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid transparent;
+}
+button.medio_branco{
+    font-size: 0.8rem;
+    padding: 1rem;
+    background-color:transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(190, 190, 190, 0.8);
+}
+
+#buttons1{
+    padding: 5% 0;
+
+}
+
+button.pequeno_verde{
+    font-size: 0.8rem;
+    padding: 1rem;
+    background-color:#4ABF9F;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid transparent;
+}
+button.pequeno_branco{
+    font-size: 0.8rem;
+    padding: 1rem;
+    background-color:transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(190, 190, 190, 0.8);
+}
+
+#lista2{
+    width: 48%;
+    float: left;
+    box-sizing: border-box;
+    margin: 1% 1% 5% 0.7%;
+}
+
+#alternate h3 + li, #alternate h3 + li + li{
+    border-bottom: 2px solid rgba(190, 190, 190, 0.8);
+}
