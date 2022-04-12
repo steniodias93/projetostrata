@@ -556,3 +556,20 @@ tfoot td{
     position: absolute;
 }
 
+#texto_flutuante{
+    text-align: justify;
+    margin:  2%;
+}
+
+#img_esquerda{
+    float: left;
+    margin:  2%;
+}
+#img_direita{
+    float: right;
+    margin:  2%;
+}
+#texto_flutuante p{
+    float: right;
+    margin:  1%;
+}
