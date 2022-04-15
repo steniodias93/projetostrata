@@ -104,17 +104,39 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem beatae ut, eos quam possimus obcaecati aliquid odio dicta aut excepturi.</p>
         
 
-        <form action="#" method="post">
-            <input type="text" placeholder="Nome" required>
-            <input type="email" placeholder="Email" required>
-            <address>Rua das Castanheiras, 49222 <br>Fortaleza-Ce CEP 60797-898 <br>Brasil. <br><br><e-mail>sdhdioia28@gmail.com</e-mail></address>
-            
-            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Mensagem"></textarea>
+            <div id="form-cards">
 
-            <input type="submit" value="Send Message">
-            
-        </form>
+                <form action="#" method="post">
 
+                    <div class="col1">
+                        
+                        <label for="nome">Nome</label>
+                        <input type="text" required id="nome">
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="textarea" id="textarea" cols="21" rows="10" id="mensagem"></textarea>
+
+                        <input type="submit" value="Send Message">
+                    </div>
+
+                    <div class="col2">
+                        <label for="email">Email</label>
+                        <input type="email" required id="email">
+                    </div>
+
+                </form>
+
+                    <div class="col3">
+                        <address>
+                            Rua das Castanheiras, 49222 <br>
+                            Fortaleza-Ce  <br>
+                            CEP 60797-898 <br>
+                            Brasil. <br><br>
+                            <e-mail>sdhdioia28@gmail.com</e-mail>
+                        </address>
+                    </div>
+            </div>
+                
         </div>
 
         <article id="elements">
