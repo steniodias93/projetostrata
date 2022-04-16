@@ -45,7 +45,6 @@ h3{
     font-size: 1.2em;
 }
 
-
 .header-title{
     color: white;
     font-size: 14px;
@@ -127,7 +126,7 @@ main{
 
 #job1 img{
     border-radius: 5px;
-    width: 100%;
+    width: 99.5%;
     float: left;
     box-sizing: border-box;
     margin: 0 0 5% 0; 
@@ -137,7 +136,7 @@ main{
     content: url(imagens/thumbs/01-old.jpg); /* Aqui eu alteraria a imagem e colocaria o botão de dentro "view */
     /* transition: Não sei como colocar em conteúdo hover com imagem */
     border-radius: 5px;
-    width: 100%;
+    width: 99.5%;
     float: left;
     box-sizing: border-box;
     margin: 0 0 5% 0; 
@@ -152,7 +151,7 @@ main{
 
 #job2 img{
     border-radius: 5px;
-    width: 100%;
+    width: 99.5%;
     float: left;
     box-sizing: border-box;
     margin: 0 0 5% 0; 
@@ -171,7 +170,7 @@ main{
 
 #job3 img{
     border-radius: 5px;
-    width: 100%;
+    width: 99.5%;
     float: left;
     box-sizing: border-box;
     margin: 0 0 5% 0; 
@@ -186,7 +185,7 @@ main{
 
 #job4 img{
     border-radius: 5px;
-    width: 100%;
+    width: 99.5%;
     float: left;
     box-sizing: border-box;
     margin: 0 0 5% 0; 
@@ -201,7 +200,7 @@ main{
 
 #job5 img{
     border-radius: 5px;
-    width: 100%;
+    width: 99.5%;
     float: left;
     box-sizing: border-box;
     margin: 0 0 5% 0; 
@@ -216,7 +215,7 @@ main{
 
 #job6 img{
     border-radius: 5px;
-    width: 100%;
+    width: 99.5%;
     float: left;
     box-sizing: border-box;
     margin: 0 0 5% 0; 
