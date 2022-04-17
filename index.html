@@ -165,12 +165,11 @@
         <article>
             <h2>Preformatado</h2>
 
-            <pre>
-                <code>
+            <pre><code>
     &lt;script&gt;
         alert('oi');
     &lt;/script>&gt;
-                </code>
+            </code>
                 
             </pre>
         </article>
@@ -226,9 +225,11 @@
         <article id="tables">
 
             <h2>Table</h2>
+
+            <h3>Default</h3>
+
             <table id="table">
             
-                <h3>Default</h3>
                 <thead>
                     <tr>
                         <th>Name	</th>
@@ -236,6 +237,7 @@
                         <th>Price</th>
                     </tr>
                 </thead>
+
                 <tbody>
                     <tr class="linha1">
                         <td> Item One	</td>
@@ -263,24 +265,17 @@
                         <td> 29.99</td>
                     </tr>
                 </tbody>
-
                 <tfoot>
                     <tr>
-                        <td colpan="3" id="total2"> 100.00</td>
-                        <td></td>
-                        <td></td>
+                        <td colspan="3" class="total"> 100.00</td>
                     </tr>
-
                 </tfoot>
-
             </table>
-        </article>    
+            
+            <h3 id="table_alternate_title">Tabela Alternativa</h3>
 
-        <table id="table_alternate">
-            <h3>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALTERNATE</h3>
-
+            <table id="table_alternate">
                 <thead>
-
                     <tr>
                         <th>Name	</th>
                         <th>Description	</th>
@@ -314,17 +309,13 @@
                         <td> 29.99</td>
                     </tr>
                 </tbody>
-
                 <tfoot>
                     <tr>
-                        <td colpan="3" id="total2"> 100.00</td>
-                        <td></td>
-                        <td></td>
+                        <td colspan="3" class="total"> 100.00</td>
                     </tr>
-
                 </tfoot>
-
-        </table>
+            </table>
+        </article>    
 
         <select name="kkk" id="">
 
