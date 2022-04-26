@@ -5,6 +5,8 @@
 
 body, html{
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 a{
@@ -544,7 +546,7 @@ th{
 }
 
 .total{
-    text-align: end;
+    text-align: left;
     border: none;
     border-collapse: collapse;
     padding: 10px;
@@ -557,6 +559,36 @@ th{
 
 .linha5-5{
     border-bottom: none;
+}
+
+#catalogo{
+    width: 100%;
+    background-color: burlywood;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#catalogo h3+img{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#catalogo .row{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: red;
+}
+
+.row img{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 49%;
 }
 
 #texto_flutuante{
