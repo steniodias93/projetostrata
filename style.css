@@ -516,6 +516,7 @@ th{
 .linha2, .linha4{
     background-color: rgba(128, 128, 128, .2);
 }
+
 .linhabordada{
     border-bottom: 2px solid rgba(0, 0, 0, 0.7);
 }
@@ -600,10 +601,12 @@ th{
     float: left;
     margin:  2%;
 }
+
 #img_direita{
     float: right;
     margin:  2%;
 }
+
 #texto_flutuante p{
     float: right;
     margin:  1%;
